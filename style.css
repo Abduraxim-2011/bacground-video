@@ -1,0 +1,60 @@
+section{
+    height: 100vh;
+    display: flex;
+    justify-content: start;
+    align-items: flex-end;
+}
+body{
+margin: 0;
+}
+section video{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    object-fit: cover;
+    position: absolute;
+    z-index: -1;
+    
+}
+.Container
+{
+    width: 1200px;
+    margin: 100px auto;
+}
+*{
+    font-family: monospace;
+}
+section p{
+    color: white;
+    font-size: 18px;
+}
+section h1{
+    font-size: 40px;
+    color: white;
+    text-transform: uppercase;
+}
+section button{
+background-color: transparent;
+color: white;
+border: 1px solid white;
+padding: 10px 20px;
+font-size: 18px;
+text-transform: uppercase;
+}
+.flex{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+header .Container{
+    margin: 0 auto;
+}
+header{
+    position: fixed;
+    width: 100%;
+}
+header a{
+    color: white;
+    text-decoration: none;
+}
